@@ -33,7 +33,6 @@
 </head>
 <body>
 
-<!-- HEADER -->
 <header class="header">
   <div class="logo">Shop<span class="accent">Easy</span></div>
   <div class="search-bar">
@@ -46,7 +45,6 @@
   </div>
 </header>
 
-<!-- CATEGORY NAV -->
 <nav class="categories">
   <a href="#"><img src="images\electronics.jpeg" alt=""> Electronics</a>
   <a href="#"><img src="images\fashion.jpeg" alt=""> Fashion</a>
@@ -56,14 +54,12 @@
   <a href="#"><img src="images\toys.jpeg" alt=""> Toys</a>
 </nav>
 
-<!-- HERO BANNER -->
 <section class="hero">
   <img src="images\offer1.png" alt="Offer 1" class="active">
   <img src="images\offer2.png" alt="Offer 2">
   <img src="images\offer3.png" alt="Offer 3">
 </section>
 
-<!-- TODAY'S DEALS -->
 <section class="products-section">
   <h2>Today's Deals</h2>
   <div class="products-grid">
@@ -94,7 +90,6 @@
   </div>
 </section>
 
-<!-- BEST SELLERS -->
 <section class="products-section">
   <h2>Best Sellers</h2>
   <div class="products-grid">
@@ -116,7 +111,6 @@
   </div>
 </section>
 
-<!-- PRODUCT MODAL -->
 <div class="modal" id="productModal">
   <div class="modal-content">
     <span class="close" id="modalClose">&times;</span>
@@ -134,7 +128,6 @@
 </footer>
 
 <script>
-  // HERO SLIDER
   let slides = document.querySelectorAll('.hero img');
   let current = 0;
   setInterval(() => {
@@ -143,7 +136,6 @@
     slides[current].classList.add('active');
   }, 4000);
 
-  // PRODUCT MODAL
   const modal = document.getElementById('productModal');
   const modalImg = document.getElementById('modalImg');
   const modalName = document.getElementById('modalName');
@@ -167,3 +159,4 @@
 </script>
 </body>
 </html>
+
